@@ -6,6 +6,7 @@
     <title>네이버</title>
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./naver.css">
+    <link rel="stylesheet" href="./webfont.css">
 </head>
 
 <body>
@@ -175,7 +176,31 @@
                     </div>
                 </div>
                 <div class="float-left">
-                    <div id="main-weather"></div>
+                    <div id="main-weather">
+                        <div>
+                            <span>03.15. (수)</span>
+                            <span>부산 대연동 ></span>
+                            <span>1/7</span>
+                            <button id="weather-prev"></button>
+                            <button id="wheather-next"></button>
+                        </div>
+                        <div>
+                            <img>
+                            <div>
+                                <img>
+                                <span>내일 오전</span>
+                            </div>
+                            <div>
+                                <img>
+                                <span>내일 오전</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span>날씨</span>
+                            <a>실시간 기상 정보 확인하기</a>
+                            <span>주간예보</span>
+                        </div>
+                    </div>
                     <div id="main-second-ad"></div>
                 </div>
             </div>
@@ -216,23 +241,58 @@
                             <span></span>
                         </button>
                     </div>
+                    
                 </div>
                 <div id="main-shopping">
-                    <iframe src="https://castbox.shopping.naver.com/shopbox/main.nhn?" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://castbox.shopping.naver.com/shopbox/main.nhn?" scrolling="no"></iframe>
                 </div>
             </div>
             <div id="main-fourth-block">
                 <div id="main-event">
                     <h3>이벤트</h3>
+                    <div style="width: 350px; height: 86px; border: 0pt none;"><iframe id="da_public_left_tgtLREC" width="350" height="86" frameborder="no" scrolling="no" tabindex="-1" style="border: 0px; vertical-align: bottom;" src="https://siape.veta.naver.com/fxshow?su=SU10641&amp;nrefreshx=0#frameId=da_public_left_tgtLREC&amp;origin=https%3A%2F%2Fwww.naver.com&amp;msgToken=7242457717.490118&amp;isFluid=false&amp;runtime=NDPSDK"></iframe></div>
                 </div>
                 <div id="main-third-ad"></div>
             </div>
         </div>
     </main>
-    <footer>
-        <div>공지사항</div>
-        <div>Creaters</div>
-        <div>회사소개</div>
+    <footer class="center-align">
+        <div id="notice">
+            <span id="notice1">공지사항</span>
+            <span>이제, 구독 중인 뉴스는 네이버 MY뉴스에서 볼 수 있어요.</span>
+        </div>
+        <div id="footers">
+            <div>
+                <span class="footer-first">Creaters</span>
+                <span>크리에이터</span>
+                <span>스몰비지니스</span>
+            </div>
+            <div>
+                <span class="footer-first">Partners</span>
+                <span>비지니스 광고</span>
+                <span>스토어 개설</span>
+                <span>지역업체 등록</span>
+            </div>
+            <div>
+                <span class="footer-first">Developers</span>
+                <span>네이버 개발자센터</span>
+                <span>오픈 API</span>
+                <span>오픈소스</span>
+                <span>네이버 D2</span>
+                <span>네이버 랩스</span>
+            </div>
+        </div>
+        <div id="last-footer">
+            <a>회사소개</a>
+            <a>인재채용</a>
+            <a>제휴제안</a>
+            <a>이용약관</a>
+            <a>개인정보처리방침</a>
+            <a>청소년보호정책</a>
+            <a>네이버정책</a>
+            <a>고객센터</a>
+            <strong>C NAVER Corp.</strong>
+        </div>
     </footer>
 </body>
 </html>
